@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="control-buttons">
+    <span>Start Game</span>
+  </div>
+  <div class="info-container">
+    <div class="name">
+      Hello: <span></span>
+    </div>
+    <div class="tries">
+      Wrong Tries: <span>0</span>
+    </div>
+  </div>
+  <div class="memory-game-blocks">
+    <div class="game-block" data-technology="banana">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/banana.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="banana">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/banana.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="cauliflower">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/cauliflower.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="cauliflower">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/cauliflower.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="corn">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/corn.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="corn">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/corn.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="dish">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/dish.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="dish">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/dish.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="ed hoon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/ed hoon.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="ed hoon">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/ed hoon.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="egg">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/egg.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="egg">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/egg.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="nuts">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/nuts.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="nuts">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/nuts.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="pistachio">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/pistachio.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="pistachio">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/pistachio.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="toast">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/toast.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="toast">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/toast.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="tomatoes">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/tomatoes.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="tomatoes">
+      <div class="face front"></div>
+      <div class="face back">
+        <img decoding="async" src="./images/tomatoes.png" alt="">
+      </div>
+    </div>
+  </div>
+  <audio id="success" src="audio/success.mp4" preload="auto"></audio>
+  <audio id="fail" src="audio/fail.mp4" preload="auto"></audio>
+<script defer src="./javascript/mein.js"></script>
+</body>
+
+</html>
